@@ -1,4 +1,4 @@
-@php
+{{-- @php
     $login = [
         (object) [
             'title' => 'Log Out',
@@ -6,7 +6,7 @@
             'icon' => 'fas fa-sign-out-alt',
         ],
     ];
-@endphp
+@endphp --}}
 
 <!-- Navbar -->
 <nav class="main-header navbar navbar-expand navbar-white navbar-light fixed-top">
