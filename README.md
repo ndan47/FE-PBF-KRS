@@ -28,12 +28,16 @@ https://adminlte.io/
 
 ### 1. Clone repositori
 
+Clone repositori Front-End ke dalam direktori lokal:
+
 ```bash
 git clone https://github.com/ndan47/FE-PBF-KRS.git
 cd FE-PBF-KRS
 ```
 
 ### 2. Instal dependensi PHP
+
+Install semua dependensi yang dibutuhkan menggunakan Composer:
 
 ```bash
 composer install
@@ -45,14 +49,9 @@ composer install
 npm install
 ```
 
-### 4. Salin file .env dan konfigurasi
+### 4. Konfigurasi Environment
 
-```bash
-cp .env.example .env
-php artisan key:generate
-```
-
-### Sesuaikan konfigurasi database dan lainnya di file .env.
+## Salin file .env.example menjadi .env
 
 ### 5. Nyalakan Web Server menggunakan Laragon atau XAMPP
 
