@@ -18,7 +18,11 @@ FE-PBF-KRS adalah aplikasi web frontend untuk sistem Kartu Rencana Studi (KRS) y
 -   MySQL
 -   JavaScript
 -   HTML & CSS
--   Blade Template dari adminlte
+-   Blade Template dari adminlte :
+
+```bash
+https://adminlte.io/
+```
 
 ## Instalasi
 
@@ -27,46 +31,59 @@ FE-PBF-KRS adalah aplikasi web frontend untuk sistem Kartu Rencana Studi (KRS) y
 ```bash
 git clone https://github.com/ndan47/FE-PBF-KRS.git
 cd FE-PBF-KRS
-
+```
 
 ### 2. Instal dependensi PHP
+
+```bash
 composer install
+```
 
 ### 3. Instal dependensi JavaScript
-npm install
 
+```bash
+npm install
+```
 
 ### 4. Salin file .env dan konfigurasi
+
+```bash
 cp .env.example .env
 php artisan key:generate
+```
 
 ### Sesuaikan konfigurasi database dan lainnya di file .env.
 
 ### 5. Nyalakan Web Server menggunakan Laragon atau XAMPP
+
 ### 6. Jalankan server lokal
+
+```bash
 php artisan serve
+```
 
 ### Aplikasi akan berjalan di http://localhost:8000.
 
 ## Struktur Direktori
-app/ - Berisi logika aplikasi dan model
 
-bootstrap/ - File bootstrap Laravel
+-   app/ - Berisi logika aplikasi dan model
 
-config/ - Konfigurasi aplikasi
+-   bootstrap/ - File bootstrap Laravel
 
-database/ - Migrasi dan seeder
+-   config/ - Konfigurasi aplikasi
 
-public/ - Entry point aplikasi
+-   database/ - Migrasi dan seeder
 
-resources/ - View dan aset frontend
+-   public/ - Entry point aplikasi
 
-routes/ - Definisi rute aplikasi
+-   resources/ - View dan aset frontend
 
-storage/ - File yang dihasilkan aplikasi
+-   routes/ - Definisi rute aplikasi
+
+-   storage/ - File yang dihasilkan aplikasi
+
 ###
 
 # Kontribusi
 
- Kontribusi sangat terbuka! Silakan fork repositori ini dan ajukan pull request untuk perbaikan atau penambahan fitur.
-```
+Kontribusi sangat terbuka! Silakan fork repositori ini dan ajukan pull request untuk perbaikan atau penambahan fitur.
